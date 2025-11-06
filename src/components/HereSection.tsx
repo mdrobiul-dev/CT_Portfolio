@@ -10,12 +10,10 @@ const HereSection = () => {
   return (
     <section id="home" className="relative pt-36 pb-24">
       <div className="mt-12 md:mt-24">
-     
         <ScrollReveal
           stagger={0.12}
           className="flex flex-col md:flex-row gap-8 items-start md:items-center"
         >
-     
           <div className="relative flex justify-center md:justify-end">
             <div className="pointer-events-none absolute -inset-12 md:-inset-24 rounded-full bg-linear-to-b from-[#7c3aed] vai-[#6d28d9]/30 to-transparent blur-3xl opacity-90"></div>
             <div className="relative">
@@ -28,7 +26,6 @@ const HereSection = () => {
                 priority
               />
 
-        
               <div className="select-none pointer-events-none absolute -top-8 -right-6 md:-top-16 md:-right-40 text-xs text-white/70">
                 <div className="relative flex items-center justify-end">
                   <div className="relative w-16 h-6 md:w-24 md:h-16">
@@ -49,7 +46,6 @@ const HereSection = () => {
             </div>
           </div>
 
-  
           <div className="md:pl-2 text-center md:text-left">
             <p className="text-sm md:text-base text-white/60 mb-2">
               A Developer who
@@ -81,7 +77,6 @@ const HereSection = () => {
           </div>
         </ScrollReveal>
 
-  
         <ScrollReveal delay={0.15} className="mt-16 max-w-3xl">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight">
             <Typewriter

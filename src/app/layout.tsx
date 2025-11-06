@@ -26,12 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`antialiased bg-[#0b0416] text-white min-h-screen`}
-      >
-        <Header/>
+      <body className={`antialiased bg-[#0b0416] text-white min-h-screen`}>
+        <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
